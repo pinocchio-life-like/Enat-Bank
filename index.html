@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Enat Bank</title>
+    <link rel="stylesheet" href="./Css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <div>
+        <nav>
+            <div class="logo">
+                <a class="active" href="#"><img src="./ImageFiles/logo.png" class="logoImage" /></a>
+            </div>
+            <input type="checkbox" id="click" />
+            <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+            <ul>
+                <li><a class="active" href="#">Converter</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Tools</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="fullConvertDiv">
+        <div class="content">
+            <h1>Enat Bank</h1>
+            <h4>Foreign Currency Converter</h4>
+        </div>
+        <div class="convertBody">
+            <fieldset class="convertField">
+                <div class="container">
+                    <h3>Convertor</h3>
+                    <div class="box">
+                        <div class="left_box">
+                            <select name="currency" class="currency"></select>
+                            <input type="number" name="" id="num" />
+                        </div>
+                        <div class="right_box">
+                            <select name="currency" class="currency"></select>
+                            <input type="text" name="" id="ans" disabled />
+                        </div>
+                    </div>
+                    <button class="btn" id="btn">Convert</button>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+    <div>
+        <div class="rateDisplay">
+            <ul class="rateHeaders">
+                <li id="headone">Currency</li>
+                <li id="headtwo">Buying</li>
+                <li id="headthree">Selling</li>
+                <li id="headfour">Rate</li>
+            </ul>
+        </div>
+        <div class="theCurrency">
+            <ul class="theCurrencyList">
+                <li>
+                    <input type="text" name="" id="one" disabled placeholder="US Dollar" />
+                </li>
+                <li>
+                    <input type="text" name="" id="two" disabled placeholder="US Dollar" />
+                </li>
+                <li>
+                    <input type="text" name="" id="three" disabled placeholder="US Dollar" />
+                </li>
+                <li>
+                    <input type="text" name="" id="four" disabled placeholder="US Dollar" />
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="secondHeader">
+            <h2>Enat Bank</h2>
+        </div>
+        <section class="advert">
+            <div class="adds">
+                <h2>Diaspora Banking</h2>
+                <p>
+                    Fast and easy money transfer services with Western Union, Moneygram, Transfast, Dahabshill, Ria, XpressMoney,WorldRemit and also with our Swift Code ENATETAA.
+                </p>
+                <a href="https://www.enatbanksc.com/diaspora-service/">More Services</a
+          >
+        </div>
+        <div class="adds">
+          <h2>Women Financing</h2>
+          <p>
+            providing conventional commercial banking services, and with special
+            emphasis on the banking needs of women..
+          </p>
+          <a href="https://www.enatbanksc.com/women-banking/"
+            >Women Financing</a
+          >
+        </div>
+        <div class="adds">
+          <h2>Saving</h2>
+          <p>
+            Enat’s domestic banking services make it easy to deposit and manage
+            your money. The minimum required for a deposit is only 10 birr.
+          </p>
+          <a href="https://www.enatbanksc.com/saving/">Saving</a>
+            </div>
+        </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
